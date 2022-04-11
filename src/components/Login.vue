@@ -51,7 +51,7 @@ export default {
       // 这是表单验证规则对象
       loginFormRules: {
         //验证用户名是否合法
-       username: [
+        username: [
           { required: true, message: "请输入活动名称", trigger: "blur" },
           {
             min: 3,
